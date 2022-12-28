@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>News homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="overlay" class="overlay"></div>
+    <div class="toggle-menu menu-show">
+      <ul class="nav-ul-toggle">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trendig</li>
+        <li>Categories</li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <img class="nav-img" src="./assets/images/logo.svg" alt="" />
+          <ul class="nav-ul">
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trendig</li>
+            <li>Categories</li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Toggle menu -->
+      <button id="manu-btn" class="flex-line">
+        <div class="line-1 line"></div>
+        <div class="line-2 line"></div>
+        <div class="line-3 line"></div>
+      </button>
+
+      <section class="webthree-section">
+        <div class="webthree">
+          <img
+            class="webthree-img"
+            src="./assets/images/image-web-3-desktop.jpg"
+            alt=""
+          />
+          <div class="webthree-text">
+            <h1>The Bright Future of Web 3.0?</h1>
+            <div class="web-text-pera">
+              <p>
+                We dive into the next evolution of the Web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button>
+                READ MORE
+                <span class="hover"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="articals">
+          <h1>New</h1>
+          <div class="artical-links">
+            <h4>Hydrogen VS Electric Cars</h4>
+            <p>Will hydrogen-fueled cars ever catch up to Evs?</p>
+          </div>
+          <div class="artical-links">
+            <h4>The Downsides of AI Artistry</h4>
+            <p>
+              what are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="artical-links">
+            <h4>Is VC Funding Drying Up?</h4>
+            <p>
+              Private funding by VC frims is down 50% YOY. We take a look at
+              what that means
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tech-section">
+        <div class="retro tech-div">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+          <div class="tech-text">
+            <h1>01</h1>
+            <h4>Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given mordern upgrades?</p>
+          </div>
+        </div>
+        <div class="laptops tech-div">
+          <img src="./assets/images/image-top-laptops.jpg" alt="" />
+          <div class="tech-text">
+            <h1>02</h1>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets</p>
+          </div>
+        </div>
+        <div class="game tech-div">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+          <div class="tech-text">
+            <h1>03</h1>
+            <h4>The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunites</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
